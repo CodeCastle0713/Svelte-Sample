@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin:0;
+}
+
+.container{
+    max-width: 1200px;
+    display:flex;
+    margin: auto;
+}
+
+.justify-between{
+    display:flex;
+    justify-content: space-between;
+}
+
+.items-center{
+    display:flex;
+    align-items: center;
+}
